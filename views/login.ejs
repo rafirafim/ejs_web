@@ -9,9 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Welcome to our Login Page</h1>
-    <form action="/validate" method="POST">
+<body style="display: flex;align-items: center;justify-content: center;">
+  <div class="card text-white bg-danger mb-3" style="max-width: 18rem;margin-top:8%;">
+    <div class="card-header">Welcome to our Login Page</div>
+    <div class="card-body">
+      <form action="/validate" method="POST">
         <div class="form-group">
           <label for="exampleInputEmail1">User ID</label>
           <input type="text" class="form-control" name="userid" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User ID">
@@ -23,5 +25,9 @@
         
         <button type="submit" class="btn btn-primary">Login</button>
       </form>
+     </div>
+  </div>
+     
+     
 </body>
 </html>
